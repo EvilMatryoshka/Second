@@ -1,0 +1,107 @@
+
+body {
+    min-width: 1040px;
+    background-color: white;
+    display: block;
+}
+
+
+
+.header {
+    width: 1440px;
+    height: 132;
+    display: inline-block;
+}
+
+
+
+.header .container {
+    width: 1020px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    
+    position: absolute;
+  
+}
+
+
+.main-nav {
+list-style: none;
+float: left;
+}
+
+li {
+display: inline-block;
+padding: 0 20px;
+}
+
+.main-nav li a {
+text-decoration: none;
+color: #000000;}
+
+.call {
+    float: right;
+    
+}
+
+.header a {
+    display: inline-block;
+}
+
+.btn {
+border: 1px solid #e68a05;
+width: 160px;
+height: 20px;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc830), to(#e86606));
+padding: 5px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+color: #000000;
+}
+
+
+a .text {
+    text-align: center;
+text-decoration: none;
+}
+
+
+
+
+.btn a:link {
+color: #000000;}
+
+.btn a:active {
+color: #000000;
+}
+
+
+
+
+.bg {
+background: rgba(0, 0, 0, 0) url("../image/cover.jpg") no-repeat;
+background-size: cover;
+margin: 0 150px;
+clear: both;
+}
+
+.getsamples {
+float: right;
+}
+
+.discount {
+float: left;}
+
+.advantage {
+Float: left;
+}
+
+.feature {
+clear: both;}
+
+.wname {
+text-align: center;}
